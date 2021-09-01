@@ -1,11 +1,17 @@
 # stock_price_prediction
 To build a model that can predict stock prices (using Deep Learning)
 Language : Python3
+
 Frameworks : Tensorflow2 , Keras , Pandas , Numpy , Matplotlib
+
 Description : We have used a **stacked multi layered LSTM** to predict the stock price of google and facebook.
+
 Loss Function = **Mean_Squared_Error**
+
 Optimizer = **Adam**
+
 Dataset - Historical data of Google and Facebook stock Prices are taken from Yahoo Finance
+
 Both the models are almost similar except for number of LSTM units in each layer
 
 Google Dataset : GOOG (2).csv 
