@@ -1,5 +1,12 @@
 # stock_price_prediction
-To build a model that can predict stock prices (using Deep Learning)
+Aim of this mini project was to understand the working of RNN , LSTM and time series prediction. This uses many to one sequence where we use past few days data to
+try and predict stock price for future date.
+
+Since stock prices are very dynamic and their prediction would take expertise in finance , this model only focuses on showing how the stacked LSTM has learned from data 
+and showing similarities with the actual stock price waveform.
+
+Theory for time series prediction using LSTM can be read from : https://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/
+
 Language : Python3
 
 Frameworks : Tensorflow2 , Keras , Pandas , Numpy , Matplotlib
